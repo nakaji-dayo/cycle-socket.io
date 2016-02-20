@@ -1,7 +1,7 @@
 {
   "name": "cycle-socket.io",
-  "version": "1.0.0",
-  "description": "Minimum Viable Pizza",
+  "version": "1.0.1",
+  "description": "Socket-io driver for cycle.js",
   "main": "dist/script.js",
   "repository": "https://github.com/cgeorg/cycle-socket.io",
   "scripts": {
@@ -10,9 +10,8 @@
   },
   "author": "Chris Marasti-Georg",
   "license": "ISC",
-  "peerDependencies": {
-    "socket.io-client": "1.3.7",
-    "cyclejs": "^0.24.0"
+  "dependencies": {
+    "socket.io-client": "1.3.7"
   },
   "devDependencies": {
     "babel": "^5.0.0"
